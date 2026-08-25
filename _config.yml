@@ -1,0 +1,13 @@
+title: GH-900 Class Handbook
+description: Built live by the class, in one day.
+theme: jekyll-theme-minimal
+show_downloads: false
+
+# Files Jekyll should not publish to the site
+exclude:
+  - CONTRIBUTING.md
+  - CODEOWNERS
+  - LICENSE
+  - SECURITY.md
+  - setup.sh
+  - roster.example.txt

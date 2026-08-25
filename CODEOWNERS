@@ -1,0 +1,25 @@
+# CODEOWNERS
+#
+# When someone opens a pull request touching a matching path, GitHub
+# automatically requests a review from the owner listed here.
+#
+# Syntax: <path pattern>  <@user or @org/team>
+# Later matches win over earlier ones.
+#
+# Replace Greyisheep below with the real GitHub username
+# before the class starts.
+
+# Everything, by default
+*                       @Greyisheep
+
+# The roster is the file most likely to conflict — watch it closely
+/index.md               @Greyisheep
+
+# Repository meta files
+/README.md              @Greyisheep
+/CONTRIBUTING.md        @Greyisheep
+/SECURITY.md            @Greyisheep
+/LICENSE                @Greyisheep
+
+# Individual handbook pages: no owner, so anyone can review a peer.
+# That is deliberate — peer review is the point of the exercise.

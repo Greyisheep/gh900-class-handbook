@@ -1,0 +1,24 @@
+# Jekyll build output (GitHub Pages builds this for us)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Operating system noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Secrets — never commit these.
+# If one ever lands here by accident, rotate it. Deleting the file
+# is not enough, because the history still contains it.
+.env
+.env.*
+*.pem
+*.key
+secrets.*

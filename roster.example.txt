@@ -1,0 +1,27 @@
+# One learner per line: Name,Team
+# Teams are Blob, Tree, Commit or Tag.
+# Lines starting with # are ignored, as are blank lines.
+#
+# Replace these with your real class list, save as roster.txt,
+# then run ./setup.sh
+#
+# The two learners marked with the same team AND listed next to each
+# other are the pair you'll steer into the planned merge conflict
+# in Lab 2 — they'll both edit adjacent lines of index.md.
+
+Amara Okeke,Blob
+Bola Adeyemi,Blob
+Chidi Nwosu,Blob
+Dami Balogun,Blob
+Efe Johnson,Tree
+Femi Adigun,Tree
+Grace Uche,Tree
+Halima Sani,Tree
+Ibrahim Musa,Commit
+Joy Eze,Commit
+Kemi Alabi,Commit
+Lanre Ojo,Commit
+Maryam Bello,Tag
+Ngozi Obi,Tag
+Olu Fashola,Tag
+Precious Ade,Tag
