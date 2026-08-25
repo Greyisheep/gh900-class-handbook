@@ -43,7 +43,7 @@ Replace an empty row in **your team's** table with your details:
 | Amara | [amara](docs/amara.md) | Squash and merge collapses a whole branch into one commit |
 ```
 
-Keep the pipes. Keep the table on your team's section. Add rows in the order people finish — don't reorganise anyone else's line.
+Keep the pipes. Keep the table on your team's section. Add rows in the order people finish. Don't reorganise anyone else's line.
 
 ---
 

@@ -4,7 +4,7 @@ Everything here is done **in your browser**. Nothing to install. No terminal. No
 
 ---
 
-## Step 1 — Claim your issue
+## Step 1: Claim your issue
 
 Go to the [Issues](../../issues) tab. Find the one titled **"Add a handbook page for &lt;your name&gt;"**.
 
@@ -14,7 +14,7 @@ Open it. On the right-hand side, click **Assignees → assign yourself**.
 
 ---
 
-## Step 2 — Name your branch properly
+## Step 2: Name your branch properly
 
 This is the part most people get wrong for years, so we're doing it right from the first try.
 
@@ -52,7 +52,7 @@ feat/PROJ-233-export-to-csv
 ### The rules
 
 - **Lowercase only.** Some systems treat `Fix/Thing` and `fix/thing` as different branches. Mixed case causes real, confusing breakage.
-- **Hyphens between words** — not spaces, not underscores. `add-amara-page`, never `add_amara_page` or `add amara page`.
+- **Hyphens between words**, not spaces, not underscores. `add-amara-page`, never `add_amara_page` or `add amara page`.
 - **Describe the work, not yourself.** `docs/add-amara-page` says what happens. `amaras-branch` says nothing to anyone reading the branch list in six months.
 - **Keep it short.** Three or four words after the slash. The pull request title is where detail belongs.
 - **No trailing slashes, no double slashes.**
@@ -71,7 +71,7 @@ feat/PROJ-233-export-to-csv
 
 ---
 
-## Step 3 — Write your page
+## Step 3: Write your page
 
 Make sure the branch dropdown still shows **your** branch, not `main`.
 
@@ -94,7 +94,7 @@ Use **at least five** of these:
 - [ ] A table
 - [ ] An emoji (`:sparkles:`)
 
-Commit to your branch with a real message — one that says **why**, not what:
+Commit to your branch with a real message, one that says **why**, not what:
 
 ```
 Add handbook page for Amara
@@ -102,9 +102,9 @@ Add handbook page for Amara
 
 ---
 
-## Step 4 — Add yourself to the roster
+## Step 4: Add yourself to the roster
 
-Open [`index.md`](index.md) — still on your branch — and add your row to **your team's** table.
+Open [`index.md`](index.md), still on your branch, and add your row to **your team's** table.
 
 Keep the pipes and dashes intact.
 
@@ -112,11 +112,11 @@ Keep the pipes and dashes intact.
 
 ---
 
-## Step 5 — Open a pull request
+## Step 5: Open a pull request
 
 **Pull requests → New pull request**
 
-- **base:** `main` — **compare:** `docs/add-<yourname>-page`
+Set **base** to `main`, and **compare** to `docs/add-<yourname>-page`.
 
 In the description you **must** include this line, with your real issue number:
 
@@ -128,7 +128,7 @@ That keyword links the pull request to your issue and closes it automatically on
 
 ---
 
-## Step 6 — Review, and be reviewed
+## Step 6: Review, and be reviewed
 
 Request a review from your pair (sidebar → **Reviewers**).
 
@@ -142,30 +142,30 @@ Then review theirs:
 
 ---
 
-## Step 7 — Merge
+## Step 7: Merge
 
 Once approved, click **Merge pull request**.
 
 Go back to your issue. It closed itself. That's `Closes #` working.
 
-Delete the branch when prompted — it's done its job, and the history lives on in `main`.
+Delete the branch when prompted. It's done its job, and the history lives on in `main`.
 
 ---
 
 ## Finished early? Stay in this repo
 
-No new tools, no new logins. Pick any of these — all in the browser, all here:
+No new tools, no new logins. Pick any of these, all in the browser, all here:
 
 1. **Open a second pull request** on a properly named branch: `docs/fix-typo-in-readme`. Find a genuine typo anywhere in this repo and fix it.
 2. **Review two more pull requests** that nobody has picked up yet. Leave a comment that actually helps.
-3. **Rename practice** — look at the open branch list and write, in a comment on your issue, a better name for any branch that breaks the convention above.
+3. **Rename practice.** Look at the open branch list and write, in a comment on your issue, a better name for any branch that breaks the convention above.
 4. **Open an issue** describing something missing from this handbook. Use a clear title and say what "done" would look like.
 5. **Add labels and a milestone** to your own issue.
-6. **Try `.`** — press the full-stop key anywhere in this repo. It opens a browser editor. Make an edit there and commit it.
+6. **Try `.`** Press the full-stop key anywhere in this repo. It opens a browser editor. Make an edit there and commit it.
 7. **Answer someone's question in a pull request comment.** Teaching it is how you find out whether you know it.
 
 ---
 
 ## Stuck?
 
-Ask your pair. Then the room. Then the instructor. In that order — it's how real teams work, and the answer usually turns up before step three.
+Ask your pair. Then the room. Then the instructor. In that order. It's how real teams work, and the answer usually turns up before step three.

@@ -1,6 +1,6 @@
 # Security Policy
 
-This is a teaching repository. It holds no code that runs anywhere and no data worth stealing. But every well-run repository has one of these files, so here is a real one — and reading it is part of the lesson.
+This is a teaching repository. It holds no code that runs anywhere and no data worth stealing. But every well-run repository has one of these files, so here is a real one, and reading it is part of the lesson.
 
 ## Reporting a vulnerability
 
@@ -29,7 +29,7 @@ Even in a class exercise, build the habit now:
 - Customer data of any kind
 - Anything you would not want on a billboard
 
-Use a `.gitignore` to keep them out. If a secret does get committed, **rotate it** — deleting the file is not enough, because the history still holds it.
+Use a `.gitignore` to keep them out. If a secret does get committed, **rotate it**. Deleting the file is not enough, because the history still holds it.
 
 ## Supported versions
 
