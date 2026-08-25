@@ -6,8 +6,7 @@
 # Syntax: <path pattern>  <@user or @org/team>
 # Later matches win over earlier ones.
 #
-# Replace Greyisheep below with the real GitHub username
-# before the class starts.
+# Owner is set to the instructor's account.
 
 # Everything, by default
 *                       @Greyisheep
